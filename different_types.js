@@ -25,7 +25,7 @@ board.push("ahahaja");
 board.push("gogogog");
 
 //ajouter un element au debut du tableau 
-board.unshift("wiki")
+board.unshift("wiki");
 
 //supprimer le premier element d'un tableau
 board.shift(); // ici ohoho sera supprimer
@@ -34,7 +34,10 @@ board.shift(); // ici ohoho sera supprimer
 board.pop(); 
 
 //trouver la postion d'un element 
-board.indexOf("gogogog")
+board.indexOf("gogogog");
+
+//pour avoir la longeur d'un tableau
+board.length();
 
 // creation d'un dictionnaire ici le type de myBook est object
 let myBook = 
@@ -67,10 +70,6 @@ class Episode
     this.hasBeenWatched = hasBeenWatched;
   }
 }
-let firstEpisode = new Episode("un interne pas comme les autres", 42, false)
-let secondEpisode = new Episode("un patient mal en point", 45, false)
-let thirdEpisode = new Episode("1ere chirurgie", 41, false)
-
-// cree un tableau 
-
-let Board = []; // pour cree un tableau on utilise les crochets 
+let firstEpisode = new Episode("un interne pas comme les autres", 42, false);
+let secondEpisode = new Episode("un patient mal en point", 45, false);
+let thirdEpisode = new Episode("1ere chirurgie", 41, false);
