@@ -45,3 +45,32 @@ let myBook =
     isAvailable: true
 };
 console.log(typeof myBook);
+
+//creation de classe 
+class Book 
+{
+    constructor (title, author, page)
+    {
+        this.title = title;
+        this.author = author;
+        this.page = page ;
+    }
+}
+let myBook = new Book("Bataille pour zirkonia", "Kelvin Bailey",332) // on peut cree des objet de la classe book
+// un autre exemple de classe
+class Episode 
+{
+  constructor (title, duration , hasBeenWatched)
+  {
+    this.title = title ; 
+    this.duration = duration ;
+    this.hasBeenWatched = hasBeenWatched;
+  }
+}
+let firstEpisode = new Episode("un interne pas comme les autres", 42, false)
+let secondEpisode = new Episode("un patient mal en point", 45, false)
+let thirdEpisode = new Episode("1ere chirurgie", 41, false)
+
+// cree un tableau 
+
+let Board = []; // pour cree un tableau on utilise les crochets 
